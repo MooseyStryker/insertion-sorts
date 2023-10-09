@@ -1,16 +1,7 @@
 // Insertion Sort out-of-place
 // Do not modify the original array
-  /*
-  Pseudocode:
 
 
-
-
-
-
-
-  Return the sorted array
-  */
 function insertionSort(arr) {
   // Copy the original array
   const copy = arr.slice()
@@ -49,6 +40,7 @@ function insertionSort(arr) {
     sorted[i] = val
   }
 
+  // Return the sorted array
   return sorted
 }
 
@@ -81,7 +73,7 @@ function insertionSortInPlace(arr) {
     // - If not shift the value to the right by 1 and continue
         arr[i] = arr[i - 1]
         i--
-        
+
       }
     }
     // - Insert the unsorted value at the break point
