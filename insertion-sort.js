@@ -81,6 +81,7 @@ function insertionSortInPlace(arr) {
     // - If not shift the value to the right by 1 and continue
         arr[i] = arr[i - 1]
         i--
+        
       }
     }
     // - Insert the unsorted value at the break point
